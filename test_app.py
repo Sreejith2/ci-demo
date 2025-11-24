@@ -1,3 +1,4 @@
+from app import get_message
+
 def test_print():
-    from app import print
-    assert print == "Hello world"
+    assert get_message() == "Hello world"
